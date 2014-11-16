@@ -29,7 +29,8 @@ module.exports.policies = {
   // '*': true,
 
   SwitchController: {
-    on: 'gpio'
+    on: 'gpio',
+    off: 'gpio'
   }
 
   /***************************************************************************
