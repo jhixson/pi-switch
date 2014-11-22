@@ -36,7 +36,9 @@ module.exports.routes = {
     view: 'switch/index'
   },
 
-  '/switch/on/:pin': 'SwitchController.on'
+  '/switch/on/:pin': 'SwitchController.on',
+  '/switch/off/:pin': 'SwitchController.off',
+  '/read/:pin': 'PinController.read'
 
   /***************************************************************************
   *                                                                          *
